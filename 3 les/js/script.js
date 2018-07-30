@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', function() {
 	// Получаем информацию для работы
 	let products = document.querySelectorAll('.product'),
-			buttons = document.getElementsByTagName('button'),
+			buttons = document.querySelectorAll('button'),
 			open = document.getElementsByClassName('open')[0];
 
 	// Функция для создания корзины
@@ -57,14 +57,5 @@ window.addEventListener('DOMContentLoaded', function() {
 
 	open.addEventListener('click', openCart);
 	close.addEventListener('click', closeCart);
-
-
-
-
-
-
-
-
-
 
 })
